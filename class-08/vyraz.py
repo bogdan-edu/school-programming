@@ -10,3 +10,6 @@ else:
     d = a / b
     print("d = ", d)
 print('кінець')
+
+qub1gamer1
+points_gamer1  =
