@@ -1,0 +1,11 @@
+word_string = 'abrakadabra'
+word_list = list(word_string)
+print(word_string)
+print(word_list)
+print(word_list[0])
+print(word_list[1])
+print(word_list[2])
+print(word_list[3])
+print(word_list[4])
+print(len(word_list))
+print(len(word_string))
