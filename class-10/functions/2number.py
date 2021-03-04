@@ -1,4 +1,5 @@
 def maxnumber(number1, number2):
+    print(number1)
     if number1 > number2:
         return number1
     else:
