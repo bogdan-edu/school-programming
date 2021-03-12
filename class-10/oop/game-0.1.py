@@ -13,7 +13,7 @@ player1 = Gamer()
 player2 = Gamer()
 
 player1.name = input('Як звати першого гравця? ')
-player2.name = input('Як звати першого гравця? ')
+player2.name = input('Як звати другого гравця? ')
 
 player1.game()
 player2.game()
