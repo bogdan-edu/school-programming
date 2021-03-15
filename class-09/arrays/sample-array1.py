@@ -13,9 +13,4 @@ array.pop(0)
 
 print(array)
 
-
-
-
-
-
-
+print(array[1])
