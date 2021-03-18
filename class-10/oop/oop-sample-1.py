@@ -27,9 +27,6 @@ user.name = 'Марфа'
 print(user.isadmin())
 print(admin.isadmin())
 
-admin.gender = 'male'
-# user.gender = 'female'
-
 x = user.who()
 y = admin.who()
 print(x)
