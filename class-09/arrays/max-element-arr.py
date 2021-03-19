@@ -10,7 +10,7 @@ for i in range(n):
 print(random_numbers)
 
 # Шукаємо найбільший елемент масиву
-max_element = 0
+max_element = random_numbers[0]
 for i in range(len(random_numbers)):
     if random_numbers[i] > max_element:
         max_element = random_numbers[i]
