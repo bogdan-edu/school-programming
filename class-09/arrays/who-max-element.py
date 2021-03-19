@@ -16,6 +16,7 @@ for i in range(len(random_numbers)):
     if random_numbers[i] > max_element:
         max_element = random_numbers[i]
         index = i
+        print('max_element = ', max_element, 'index = ', index)
 
-print('Найбільший елемент: ', max_element)
+print('Найбільший елемент = ', max_element)
 print('Порядковий номер найбільшого елемента', index)
