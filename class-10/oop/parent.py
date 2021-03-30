@@ -6,14 +6,24 @@ class Person:
         self.name = new_name
 
 
+class Friend(Person):
+    address = ''
+
+    def relocation(self, a):
+        self.address = a
+
+
 people = Person('Петро')
 print(people.name)
 
 people.rename('Павло')
 print(people.name)
 
-buba = Person('Буба')
+buba = Friend('Буба')
 print(buba.name)
 
 buba.rename('Бубочка')
 print(buba.name)
+
+buba.relocation('Жмеринка')
+print(buba.address)
