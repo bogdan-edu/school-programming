@@ -12,4 +12,4 @@ summ = 0
 for i in range(len(random_numbers)):
     summ = summ + random_numbers[i]
 
-print('Сума еелемнтів', summ)
+print('Сума елемнтів', summ)
