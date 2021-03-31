@@ -25,5 +25,7 @@ print(buba.name)
 buba.rename('Бубочка')
 print(buba.name)
 
+print(buba.address)
+
 buba.relocation('Жмеринка')
 print(buba.address)
