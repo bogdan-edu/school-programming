@@ -3,10 +3,10 @@ class Person:
         self.name = n
 
     def __add__(self, other):
-        return self.name + ' love ' + other.name
+        return self.name + ' любить ' + other.name
 
 
-m = Person('Маша')
-p = Person('Коля')
-x = m + p
+male = Person('Вася')
+female = Person('Ліза')
+x = male + female
 print(x)

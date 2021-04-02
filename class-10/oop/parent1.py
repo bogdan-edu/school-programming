@@ -6,13 +6,25 @@ class Person:
         self.name = new_name
 
 
-class Friend(Person):
+class Freind(Person):
     def __init__(self, n, a):
-        super().__init__(n)
+        super().__init__(n, x)
         self.address = a
 
     def relocation(self, a):
         self.address = a
 
 
+buba = Person('Буба')
+print(buba.name)
+buba.rename('Бубася')
+print(buba.name)
 
+buba_freind = Freind('Буба', 'Білоцерківка')
+print(buba_freind.name)
+print(buba_freind.address)
+
+buba_freind.relocation('Жмеринка')
+buba_freind.rename('Бубочка')
+print(buba_freind.name)
+print(buba_freind.address)
