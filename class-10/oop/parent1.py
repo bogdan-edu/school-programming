@@ -8,7 +8,7 @@ class Person:
 
 class Freind(Person):
     def __init__(self, n, a):
-        super().__init__(n, x)
+        super().__init__(n)
         self.address = a
 
     def relocation(self, a):
