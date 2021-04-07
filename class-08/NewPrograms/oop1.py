@@ -4,13 +4,13 @@ class People:
         self.age = y
         self.address = z
 
-
     def hello(self):
         phrase = 'Привіт, мене звати ' + self.name + ', мені ' + str(self.age) + ' років, '
         print(phrase, 'я вчуся в ', school)
 
     def friend(self):
         print('Мене звати', self.name, 'я дружу з ', bodya.name)
+
 
 school = 'Білоцерківська ЗОШ'
 
