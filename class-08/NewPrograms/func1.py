@@ -7,3 +7,4 @@ def hello(name1, name2, years):
 
 print(hello('Катя', 'Діана', 10))
 
+print(hello('Кіт', 'Собака', 3))
