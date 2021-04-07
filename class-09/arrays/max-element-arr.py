@@ -5,7 +5,7 @@ n = int(input('Скільки елементів масиву має бути? '
 
 random_numbers = []
 for i in range(n):
-    random_numbers.append(random.randint(1, 1000))
+    random_numbers.append(random.randint(1, 6))
 
 print(random_numbers)
 

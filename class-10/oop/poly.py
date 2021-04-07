@@ -1,3 +1,5 @@
+#!/usr/bin/python3.9
+
 class Person:
     def __init__(self, n):
         self.name = n
@@ -10,3 +12,4 @@ male = Person('Вася')
 female = Person('Ліза')
 x = male + female
 print(x)
+input()

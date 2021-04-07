@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 print("Знаходження коренів квадратного рівняння ax^2+bx+c=0")
 
 a = float(input("Введіть коефіцієнт a = "))
@@ -36,3 +38,5 @@ elif a == 0 and b == 0:
     print("Данний вираз не є рівнянням")
 else:
     koren_quadrat()
+input()
+
