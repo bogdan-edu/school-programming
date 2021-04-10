@@ -4,8 +4,8 @@ root = Tk()
 var_a = DoubleVar()
 var_b = DoubleVar()
 
-ent_a = Entry(root, width=18, bd=5, text=var_a)
-ent_b = Entry(root, width=18, bd=5, text=var_b)
+ent_a = Entry(root, width=18, bd=1, text=var_a)
+ent_b = Entry(root, width=18, bd=1, text=var_b)
 
 res = Label(root)
 

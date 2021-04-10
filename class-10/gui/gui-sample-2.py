@@ -15,7 +15,7 @@ root = Tk()
 
 button = Button(root)
 button['text'] = 'Додавання'
-button.bind('<Button>', summary)
+button.bind('<Button>', hello)
 button.pack()
 
 button_hello = Button(root)
