@@ -9,7 +9,7 @@ ent_a = Entry(root, text=var_a)
 ent_b = Entry(root, text=var_b)
 ent_c = Entry(root, text=var_c)
 
-res = Label(root)
+res = Label(root, font='Ubuntu', height=3, background='purple', width=100)
 
 
 def summary(event):
@@ -19,7 +19,7 @@ def summary(event):
     res['text'] = '(a + b) / c = ' + str((a + b) / c)
 
 
-button = Button(root)
+button = Button(root, width=100, height=2)
 button['text'] = 'Додавання'
 button.bind('<Button>', summary)
 

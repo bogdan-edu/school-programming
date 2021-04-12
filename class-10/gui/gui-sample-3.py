@@ -14,7 +14,7 @@ def summary(event):
     a = var_a.get()
     b = var_b.get()
     res['text'] = str(a + b)
-6
+
 
 button = Button(root, width=40, height=2, font='Hack', border=5)
 button['text'] = 'Додавання'
