@@ -8,10 +8,13 @@ def printing(event):
 root = Tk()
 
 res = Label(root)
-res.pack()
+
 
 button = Button(root)
 button['text'] = 'Натиисни мене'
 button.bind('<Button>', printing)
+
+res.pack()
 button.pack()
+
 root.mainloop()
