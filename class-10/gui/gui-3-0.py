@@ -15,7 +15,7 @@ label_b = Label(root, text='b = ')
 def summary(event):
     a = var_a.get()
     b = var_b.get()
-    res['text'] = 'a + b' + str(a + b)
+    res['text'] = 'a + b = ' + str(a + b)
 
 
 button = Button(root, width=40, height=2, font='Hack', border=5)
