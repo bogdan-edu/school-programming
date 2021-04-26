@@ -13,5 +13,6 @@ my_btn = Button(root, text='Моя кнопка')
 btn.bind('<Button>', press_btn)
 my_text.pack()
 btn.pack()
+# Застосовуємо метод pack до нової кнопки
 my_btn.pack()
 root.mainloop()
