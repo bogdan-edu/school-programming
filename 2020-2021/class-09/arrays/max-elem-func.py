@@ -11,7 +11,7 @@ print('Максимальний елемент: ', max_element)
 min_element = myarray.minelem(random_numbers)
 print('Мінімальний елемент: ', min_element)
 
-random_numbers = myarray.randarray(n+10)
+random_numbers = myarray.randarray(n + 10)
 print(random_numbers)
 
 max_element = myarray.maxelem(random_numbers)
