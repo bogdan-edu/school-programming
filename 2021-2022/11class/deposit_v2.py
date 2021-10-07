@@ -7,6 +7,6 @@ years = 0
 while deposit < main_sum:
     years = years + 1
     deposit = deposit + percent * deposit / 100
-    print('Через ', years,  'років депозит буде ', deposit)
+    print('Через ', years,  ' років депозит буде ', deposit)
 
 print('Необхідної суми ми досягнемо через ', years, ' років')
