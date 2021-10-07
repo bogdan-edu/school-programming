@@ -5,7 +5,7 @@ main_sum = int(input('Сума сума після повернення: '))
 years = 0
 
 while deposit < main_sum:
-    years = years + 1
+    years += 1
     deposit = deposit + percent * deposit / 100
     print(f'Через {years} років депозит буде {deposit}')
 
