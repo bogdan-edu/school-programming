@@ -15,3 +15,4 @@ for i in range(len(my_list)):
     sorted_list.append(el)
     my_list.remove(el)
 print(sorted_list)
+print(my_list)
