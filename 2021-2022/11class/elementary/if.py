@@ -1,9 +1,4 @@
-ask1 = False
-ask2 = True
+a = 9
+if a > 7 and a < 9:
+    print('а більше 7, але менше 9')
 
-if ask1:
-    print('BlaBlaBla')
-elif ask2:
-    print('BluBluBlu')
-else:
-    print('BloBloBlo')
