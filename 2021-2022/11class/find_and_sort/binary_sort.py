@@ -1,6 +1,6 @@
 sorted_list = [3, 9, 12, 22, 23, 27, 28, 39, 45, 50, 58, 60, 61, 73, 76, 85, 89, 92, 94, 99]
 
-quest = 60
+quest = 85
 
 midpoint = len(sorted_list) // 2
 start = 0
@@ -14,6 +14,6 @@ while sorted_list[midpoint] != quest and start <= end:
     midpoint = (start + end) // 2
 
 if start > end:
-    print("No value")
+    print("Такого значення немає")
 else:
-    print("ID =", midpoint)
+    print("Значення знаходиться на позиції: ", midpoint)
