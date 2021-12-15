@@ -10,3 +10,6 @@ for i in range(node_len):
 
 for row in range(len(graph)):
     print(graph[row])
+
+with open('files/graph.txt', 'a', encoding='utf-8') as file:
+    file.write(f'{graph}\n')
