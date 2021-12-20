@@ -10,3 +10,10 @@ graph[5] = [0, 0, 0, 1, 0, 0]
 for row in range(len(graph)):
     print(graph[row])
 
+node = int(input('Для якої вершини треба порахувати звʼязки? '))
+
+relations = 0
+for el in graph[node]:
+    relations += el
+
+print(f'Вершина {node} має {relations} звʼязків')
