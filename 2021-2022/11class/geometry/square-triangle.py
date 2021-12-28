@@ -16,3 +16,12 @@ node_c = xc, yc
 side_a = long(node_b, node_c)
 side_b = long(node_a, node_c)
 side_c = long(node_a, node_b)
+
+if side_a ** 2 == side_b ** 2 + side_c ** 2:
+    print(f'Трикутник з вершинами {node_a}, {node_b}, {node_c} є прямокутним')
+elif side_b ** 2 == side_a ** 2 + side_c ** 2:
+    print(f'Трикутник з вершинами {node_a}, {node_b}, {node_c} є прямокутним')
+elif side_c ** 2 == side_a ** 2 + side_b ** 2:
+    print(f'Трикутник з вершинами {node_a}, {node_b}, {node_c} є прямокутним')
+else:
+    print(f'Трикутник з вершинами {node_a}, {node_b}, {node_c} не є прямокутним')
